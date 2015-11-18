@@ -1,3 +1,5 @@
+# COPYRIGHT 2015 Mohammed AlMalki
+# for the used dataset, please refer to http://cvrr.ucsd.edu/bmorris/datasets/dataset_trajectory_clustering.html
 from lshash import LSHash
 from sklearn.datasets import fetch_mldata, load_iris, load_digits
 from sklearn import datasets

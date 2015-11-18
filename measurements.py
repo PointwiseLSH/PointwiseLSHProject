@@ -1,3 +1,4 @@
+# COPYRIGHT 2015 Mohammed AlMalki
 from sklearn.metrics.cluster import normalized_mutual_info_score
 import numpy as np
 

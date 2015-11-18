@@ -1,3 +1,5 @@
+# COPYRIGHT 2015 Mohammed AlMalki
+# for the used dataset, please refer to http://cvrr.ucsd.edu/bmorris/datasets/dataset_trajectory_clustering.html
 from lshash import LSHash
 from sklearn.datasets import fetch_mldata, load_iris, load_digits
 from sklearn.metrics.cluster import normalized_mutual_info_score
@@ -52,7 +54,7 @@ for segment in segmentingPosition:
 				print '\nStarting loading the trajectory dataset ...'
 				fileContainer.write(str( '\nTime before loading the trajectory dataset : '+ time.asctime( time.localtime(time.time()) )))
 				#------------------------------------------------------------------------------
-				# The Trajectory dataset - 
+				# The Trajectory dataset - LABOMNI
 				#------------------------------------------------------------------------------
 				mat = scipy.io.loadmat(usedDataset)
 				datasetSize = len(mat.values()[0])

@@ -1,3 +1,5 @@
+# COPYRIGHT 2015 Mohammed AlMalki
+# for the used dataset, please refer to http://cvrr.ucsd.edu/bmorris/datasets/dataset_trajectory_clustering.html
 from lshash import LSHash
 from sklearn.datasets import fetch_mldata, load_iris, load_digits
 from sklearn import datasets
@@ -36,7 +38,7 @@ fileContainer.write(str( '\nTime after LSH initialization : '+ time.asctime( tim
 print '\nStarting loading the trajectory dataset ...'
 fileContainer.write(str( '\nTime before loading the trajectory dataset : '+ time.asctime( time.localtime(time.time()) )))
 #------------------------------------------------------------------------------
-# The Trajectory dataset - cross
+# The Trajectory dataset - I5SIM3
 #------------------------------------------------------------------------------
 mat = scipy.io.loadmat(usedDataset)
 datasetSize = len(mat.values()[0])
